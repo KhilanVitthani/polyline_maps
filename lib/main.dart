@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
   GoogleMapController? mapController; //contrller for Google map
   PolylinePoints polylinePoints = PolylinePoints();
 
-  String googleAPiKey = "AIzaSyD8YQ4Puh6sr2tURQ5OKwGVTkEpzQqC82I";
+  String googleAPiKey = "Google Api Key";
 
   Set<Marker> markers = Set(); //markers for google map
   Map<PolylineId, Polyline> polylines = {}; //polylines to show direction
